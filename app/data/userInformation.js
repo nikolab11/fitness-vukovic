@@ -1,0 +1,156 @@
+const userInformation = {
+  male: [
+    {
+      id: 1,
+      name: 'age',
+      label: { sr: 'Starost', en: 'Age' },
+      desired: false,
+      defaultValue: '24',
+    },
+    {
+      id: 2,
+      name: 'height',
+      label: { sr: 'Visina (cm)', en: 'Height (cm)' },
+      desired: false,
+      defaultValue: '172',
+    },
+    {
+      id: 3,
+      name: 'weight',
+      label: { sr: 'Težina / Cilj', en: 'Weight / Goal' },
+      desired: true,
+      defaultValue: '75',
+      defaultDesiredValue: '65',
+    },
+    {
+      id: 4,
+      name: 'waist_size',
+      label: { sr: 'Obim struka / Cilj (cm)', en: 'Waist size / Goal (cm)' },
+      desired: true,
+      defaultValue: '43',
+      defaultDesiredValue: '37',
+    },
+    {
+      id: 5,
+      name: 'chest_size',
+      label: {
+        sr: 'Obim grudi / Cilj (cm)',
+        en: 'Chest circumference / Goal (cm)',
+      },
+      desired: true,
+      defaultValue: '75',
+      defaultDesiredValue: '85',
+    },
+    {
+      id: 6,
+      name: 'forearm_size',
+      label: {
+        sr: 'Podlaktica / Cilj (cm)',
+        en: 'Forearm / Goal (cm)',
+      },
+      desired: true,
+      defaultValue: '75',
+      defaultDesiredValue: '65',
+    },
+    {
+      id: 7,
+      name: 'upper_arm_size',
+      label: {
+        sr: 'Nadlaktica / Cilj (cm)',
+        en: 'Upper arm / Goal (cm)',
+      },
+      desired: true,
+      defaultValue: '43',
+      defaultDesiredValue: '37',
+    },
+    {
+      id: 8,
+      name: 'lower_leg_size',
+      label: {
+        sr: 'Potkolenica / Cilj (cm)',
+        en: 'Lower leg / Goal (cm)',
+      },
+      desired: true,
+      defaultValue: '75',
+      defaultDesiredValue: '65',
+    },
+    {
+      id: 9,
+      name: 'upper_leg_size',
+      label: {
+        sr: 'Nadkolenica / Cilj (cm)',
+        en: 'Upper leg / Goal (cm)',
+      },
+      desired: true,
+      defaultValue: '43',
+      defaultDesiredValue: '37',
+    },
+  ],
+  female: [
+    {
+      id: 1,
+      name: 'age',
+      label: { sr: 'Starost', en: 'Age' },
+      desired: false,
+      defaultValue: '24',
+    },
+    {
+      id: 2,
+      name: 'height',
+      label: { sr: 'Visina (cm)', en: 'Height (cm)' },
+      desired: false,
+      defaultValue: '172',
+    },
+    {
+      id: 3,
+      name: 'weight',
+      label: { sr: 'Težina / Cilj', en: 'Weight / Goal' },
+      desired: true,
+      defaultValue: '65',
+      defaultDesiredValue: '60',
+    },
+    {
+      id: 4,
+      name: 'waist_size',
+      label: { sr: 'Obim struka / Cilj (cm)', en: 'Waist size / Goal (cm)' },
+      desired: true,
+      defaultValue: '75',
+      defaultDesiredValue: '65',
+    },
+    {
+      id: 5,
+      name: 'hip_size',
+      label: {
+        sr: 'Obim kukova / Cilj (cm)',
+        en: 'Hip circumference / Goal (cm)',
+      },
+      desired: true,
+      defaultValue: '100',
+      defaultDesiredValue: '105',
+    },
+    {
+      id: 6,
+      name: 'forearm_size',
+      label: {
+        sr: 'Podlaktica / Cilj (cm)',
+        en: 'Forearm / Goal (cm)',
+      },
+      desired: true,
+      defaultValue: '75',
+      defaultDesiredValue: '65',
+    },
+    {
+      id: 7,
+      name: 'upper_arm_size',
+      label: {
+        sr: 'Nadlaktica / Cilj (cm)',
+        en: 'Upper arm / Goal (cm)',
+      },
+      desired: true,
+      defaultValue: '43',
+      defaultDesiredValue: '37',
+    },
+  ],
+};
+
+export default userInformation;
